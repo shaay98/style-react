@@ -1,0 +1,48 @@
+$primary: #3498db;
+$secondary: #2ecc71;
+$accent: #e74c3c;
+$muted: #95a5a6;
+$highlight: #f1c40f;
+
+.section-one {
+  background-color: $primary;
+  padding: 1rem;
+
+  h2 {
+    color: white;
+  }
+
+  a {
+    color: $highlight;
+    text-decoration: none;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
+
+.section-two {
+  background-color: $secondary;
+  padding: 1rem;
+
+  button {
+    background-color: $highlight;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+
+    &:hover {
+      background-color: $accent;
+    }
+  }
+}
+
+.section-three {
+  background-color: $muted;
+  padding: 1rem;
+
+  p {
+    color: #fff;
+  }
+}
